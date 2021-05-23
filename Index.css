@@ -1,0 +1,44 @@
+.fb{
+    display: flex;
+    border: 1px solid black;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+.c1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fb1, .fb2{
+    background: url('images/bj1.jpg') ;
+    color:white;
+}
+.fb1 div{
+
+    border: 1px solid black;
+    padding:10px;
+    flex: 1;
+    text-align: center;
+    height: 500px;
+    justify-content: space-around;
+    
+}
+.fb1 img{
+    
+    width:24%;
+    padding:10px;
+}
+.btn{
+    border: 1px solid black;
+    padding:10px;
+}
+.tbl{
+    border: 1px solid black;
+    padding:10px;
+}
+
+ 

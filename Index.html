@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script src="bootstrap.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Index.css" type="text/css"/>
+    
+    
+</head>
+<body>
+    
+    <div class='c1'>
+        <h2>Challange 5: BlackJack</h2>
+        <h3><span id='display-result'>Let's' Play</span></h3> 
+        <div class='fb fb1'>
+            <div id='your_box'>
+                <h2>You: <span id='your_result'>0</span</h2>
+            </div>
+            <div id='dealer_box'> 
+                <h2>Dealer: <span id='dealer_result'>0</span</h2>
+            </div>
+        </div>
+        <div class='fb fb2'>
+            <div class='btn'>
+                <button class='btn-lg btn-primary mr-2' id='hit' >Hit</button>
+                <button class='btn-lg btn-warning mr-2' id='stand'>Stand</button>
+                <button class='btn-lg btn-danger mr-2' id='deal'>Reset</button>
+                
+            </div>
+        </div>
+        <div class='fb fb3'>
+            <table>
+                <tr>
+                    <th class='tbl'>Wins</th>
+                    <th class='tbl'>Loss</th>
+                    <th class='tbl'>Draws</th>
+                </tr>
+                <tr>
+                    <td class='tbl'><span id='win'>0</span></td>
+                    <td class='tbl'><span id='loss'>0</span></td>
+                    <td class='tbl'><span id='draw'>0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="Index.js" type="text/javascript"></script>
+</body>
+</html>
